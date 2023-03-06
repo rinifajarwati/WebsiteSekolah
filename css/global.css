@@ -1,0 +1,260 @@
+
+.form-container{
+    background-color:  white;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+.atas {
+    background-color: white;
+    text-align: center;
+    color: white;
+ }
+
+ /* Workingspace */
+.workingspace{
+    margin-top: 2px;
+}
+
+.workingspace h4 span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 196px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 30px;
+}
+
+.berita{
+    padding: 55px 0;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.berita h1{
+    font-size: 45px;
+    margin-bottom: 55px;
+    color: black;
+}
+.berita .card{
+    border: 1px solid black;
+}
+
+.berita .card-body{
+    background-color: white;
+    padding: 1.25rem .9rem;
+}
+
+.berita .card-body .card-title{
+    color: black;
+    font-weight: 700;
+}
+
+.berita .card-body .card-title{
+    color: black;
+}
+
+.berita .btn-primary{
+    color: black;
+    background-color: black;
+}
+
+#person h4, #person img, #person p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 8px;
+}
+
+.table{
+    margin-top: 44px;
+}
+
+#ubah.card{
+    padding: 8px;
+    margin-bottom: 16px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+
+
+#ubah.card-img-top{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-top{
+    float:left;
+    height:150px; 
+    width: 150px;
+    border: 4px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 32px; 
+}
+.card table{
+    float: right;
+    width: 75%;
+    margin-top: 25px;
+    border: 1px;
+    color: black;
+}
+
+#foto .card{
+    text-align: justify;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    padding: 30px;
+}
+@media screen and (max-width: 1000px) {
+    #foto .card{
+        padding: 8px;
+        text-align: justify;
+        width: 100px;
+        height: auto;
+        margin-top: 12px;
+        
+    }
+    .img-top{
+       float: top;
+       height: 380px;
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .card table{
+       float: bottom; 
+       height: 40%;
+       width: 100%;
+       margin-bottom: 16px;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.contentfoto {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.container-costum{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.contentfoto .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.contentfoto:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.contentfoto:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+span {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+}
+
